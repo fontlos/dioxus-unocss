@@ -1,0 +1,20 @@
+{
+  "name": "{{project-name}}",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "unocss src/**/*.rs --out-file assets/uno.css -w",
+    "build": "unocss src/**/*.rs --out-file assets/uno.css && dx build -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify/utils": "latest",
+    "@unocss/cli": "latest",
+    "@unocss/transformer-directives": "latest",
+    "@unocss/transformer-variant-group": "latest",
+    "unocss": "latest"
+  }
+}

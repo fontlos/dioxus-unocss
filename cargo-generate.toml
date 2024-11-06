@@ -1,0 +1,2 @@
+[template]
+ignore = ["example.png", "Readme.md", "License", ".gitignore", "node_modules", "target"]
